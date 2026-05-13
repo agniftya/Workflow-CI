@@ -25,4 +25,4 @@ jobs:
           pip install pandas numpy scikit-learn matplotlib seaborn mlflow dagshub
 
       - name: Run Model Training
-        run: python Membangun_model/modelling.py
+        run: python MLProject/modelling.py
