@@ -11,7 +11,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Nama step disamakan dengan kriteria, tapi di belakang layar pakai versi v4 agar tidak error
       - name: Run actions/checkout@v3
         uses: actions/checkout@v4
 
@@ -42,7 +41,6 @@ jobs:
         run: |
           echo "Dependencies checked."
 
-      # INI YANG TADI BIKIN ERROR (Sekarang sudah di-upgrade ke v4)
       - name: Upload to GitHub
         uses: actions/upload-artifact@v4
         with:
