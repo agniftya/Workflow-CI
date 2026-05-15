@@ -5,7 +5,6 @@ import os
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 
-mlflow.set_tracking_uri("file:./mlruns")
 mlflow.sklearn.autolog()
 mlflow.set_experiment("Restaurant_Satisfaction_Experiment")
 
