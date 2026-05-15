@@ -6,7 +6,6 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 
 mlflow.sklearn.autolog()
-mlflow.set_experiment("Restaurant_Satisfaction_Experiment")
 
 base_dir = os.path.dirname(os.path.abspath(__file__))
 
