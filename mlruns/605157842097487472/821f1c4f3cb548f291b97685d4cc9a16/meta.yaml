@@ -1,0 +1,14 @@
+artifact_uri: file:D:/Pijak/Tugas/Machine Learning Submission/Workflow-CI/mlruns/605157842097487472/821f1c4f3cb548f291b97685d4cc9a16/artifacts
+end_time: 1778845281600
+entry_point_name: ''
+experiment_id: '605157842097487472'
+lifecycle_stage: active
+run_id: 821f1c4f3cb548f291b97685d4cc9a16
+run_name: bedecked-bug-374
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778845263728
+status: 3
+tags: []
+user_id: agnif

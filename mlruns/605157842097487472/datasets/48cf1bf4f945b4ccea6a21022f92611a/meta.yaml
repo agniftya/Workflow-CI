@@ -1,0 +1,34 @@
+digest: 7fffbb79
+name: dataset
+profile: '{"num_rows": 1200, "num_elements": 39600}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "num__Income", "required":
+  true}, {"type": "double", "name": "num__AverageSpend", "required": true}, {"type":
+  "double", "name": "num__GroupSize", "required": true}, {"type": "double", "name":
+  "num__WaitTime", "required": true}, {"type": "double", "name": "num__ServiceRating",
+  "required": true}, {"type": "double", "name": "num__FoodRating", "required": true},
+  {"type": "double", "name": "num__AmbianceRating", "required": true}, {"type": "double",
+  "name": "num__SpendPerPerson", "required": true}, {"type": "double", "name": "num__OnlineReservation",
+  "required": true}, {"type": "double", "name": "num__DeliveryOrder", "required":
+  true}, {"type": "double", "name": "num__LoyaltyProgramMember", "required": true},
+  {"type": "double", "name": "cat__Gender_Female", "required": true}, {"type": "double",
+  "name": "cat__Gender_Male", "required": true}, {"type": "double", "name": "cat__VisitFrequency_Daily",
+  "required": true}, {"type": "double", "name": "cat__VisitFrequency_Monthly", "required":
+  true}, {"type": "double", "name": "cat__VisitFrequency_Rarely", "required": true},
+  {"type": "double", "name": "cat__VisitFrequency_Weekly", "required": true}, {"type":
+  "double", "name": "cat__PreferredCuisine_American", "required": true}, {"type":
+  "double", "name": "cat__PreferredCuisine_Chinese", "required": true}, {"type": "double",
+  "name": "cat__PreferredCuisine_Indian", "required": true}, {"type": "double", "name":
+  "cat__PreferredCuisine_Italian", "required": true}, {"type": "double", "name": "cat__PreferredCuisine_Mexican",
+  "required": true}, {"type": "double", "name": "cat__TimeOfVisit_Breakfast", "required":
+  true}, {"type": "double", "name": "cat__TimeOfVisit_Dinner", "required": true},
+  {"type": "double", "name": "cat__TimeOfVisit_Lunch", "required": true}, {"type":
+  "double", "name": "cat__DiningOccasion_Business", "required": true}, {"type": "double",
+  "name": "cat__DiningOccasion_Casual", "required": true}, {"type": "double", "name":
+  "cat__DiningOccasion_Celebration", "required": true}, {"type": "double", "name":
+  "cat__MealType_Dine-in", "required": true}, {"type": "double", "name": "cat__MealType_Takeaway",
+  "required": true}, {"type": "double", "name": "cat__AgeGroup_Adult", "required":
+  true}, {"type": "double", "name": "cat__AgeGroup_Senior", "required": true}, {"type":
+  "double", "name": "cat__AgeGroup_Youth", "required": true}]}'
+source: '{"tags": {"mlflow.user": "agnif", "mlflow.source.name": "MLProject/modelling.py",
+  "mlflow.source.type": "LOCAL", "mlflow.source.git.commit": "46bafe60d943935bfcaf25cea76128032d6cb5b4"}}'
+source_type: code

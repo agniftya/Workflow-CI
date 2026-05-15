@@ -1,0 +1,57 @@
+artifact_path: file:D:/Pijak/Tugas/Machine Learning Submission/Workflow-CI/mlruns/605157842097487472/models/m-cc315130e42648e58ab80fe7eedd2f1f/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.11.1
+model_id: m-cc315130e42648e58ab80fe7eedd2f1f
+model_size_bytes: 2493704
+model_uuid: m-cc315130e42648e58ab80fe7eedd2f1f
+prompts: null
+run_id: 2d770e29426e4cf48e3d7d50972982fe
+signature:
+  inputs: '[{"type": "double", "name": "num__Income", "required": true}, {"type":
+    "double", "name": "num__AverageSpend", "required": true}, {"type": "double", "name":
+    "num__GroupSize", "required": true}, {"type": "double", "name": "num__WaitTime",
+    "required": true}, {"type": "double", "name": "num__ServiceRating", "required":
+    true}, {"type": "double", "name": "num__FoodRating", "required": true}, {"type":
+    "double", "name": "num__AmbianceRating", "required": true}, {"type": "double",
+    "name": "num__SpendPerPerson", "required": true}, {"type": "double", "name": "num__OnlineReservation",
+    "required": true}, {"type": "double", "name": "num__DeliveryOrder", "required":
+    true}, {"type": "double", "name": "num__LoyaltyProgramMember", "required": true},
+    {"type": "double", "name": "cat__Gender_Female", "required": true}, {"type": "double",
+    "name": "cat__Gender_Male", "required": true}, {"type": "double", "name": "cat__VisitFrequency_Daily",
+    "required": true}, {"type": "double", "name": "cat__VisitFrequency_Monthly", "required":
+    true}, {"type": "double", "name": "cat__VisitFrequency_Rarely", "required": true},
+    {"type": "double", "name": "cat__VisitFrequency_Weekly", "required": true}, {"type":
+    "double", "name": "cat__PreferredCuisine_American", "required": true}, {"type":
+    "double", "name": "cat__PreferredCuisine_Chinese", "required": true}, {"type":
+    "double", "name": "cat__PreferredCuisine_Indian", "required": true}, {"type":
+    "double", "name": "cat__PreferredCuisine_Italian", "required": true}, {"type":
+    "double", "name": "cat__PreferredCuisine_Mexican", "required": true}, {"type":
+    "double", "name": "cat__TimeOfVisit_Breakfast", "required": true}, {"type": "double",
+    "name": "cat__TimeOfVisit_Dinner", "required": true}, {"type": "double", "name":
+    "cat__TimeOfVisit_Lunch", "required": true}, {"type": "double", "name": "cat__DiningOccasion_Business",
+    "required": true}, {"type": "double", "name": "cat__DiningOccasion_Casual", "required":
+    true}, {"type": "double", "name": "cat__DiningOccasion_Celebration", "required":
+    true}, {"type": "double", "name": "cat__MealType_Dine-in", "required": true},
+    {"type": "double", "name": "cat__MealType_Takeaway", "required": true}, {"type":
+    "double", "name": "cat__AgeGroup_Adult", "required": true}, {"type": "double",
+    "name": "cat__AgeGroup_Senior", "required": true}, {"type": "double", "name":
+    "cat__AgeGroup_Youth", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-05-15 11:46:01.796455'

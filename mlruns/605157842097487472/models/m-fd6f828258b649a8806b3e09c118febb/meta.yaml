@@ -1,0 +1,10 @@
+artifact_location: file:D:/Pijak/Tugas/Machine Learning Submission/Workflow-CI/mlruns/605157842097487472/models/m-fd6f828258b649a8806b3e09c118febb/artifacts
+creation_timestamp: 1778845264600
+experiment_id: '605157842097487472'
+last_updated_timestamp: 1778845279142
+model_id: m-fd6f828258b649a8806b3e09c118febb
+model_type: null
+name: model
+source_run_id: 821f1c4f3cb548f291b97685d4cc9a16
+status: 2
+status_message: null

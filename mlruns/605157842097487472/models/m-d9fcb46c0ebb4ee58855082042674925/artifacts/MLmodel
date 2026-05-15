@@ -1,0 +1,23 @@
+artifact_path: file:D:/Pijak/Tugas/Machine Learning Submission/Workflow-CI/mlruns/605157842097487472/models/m-d9fcb46c0ebb4ee58855082042674925/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.11.1
+model_id: m-d9fcb46c0ebb4ee58855082042674925
+model_size_bytes: 2493756
+model_uuid: m-d9fcb46c0ebb4ee58855082042674925
+prompts: null
+run_id: 2d770e29426e4cf48e3d7d50972982fe
+utc_time_created: '2026-05-15 11:46:18.059584'
