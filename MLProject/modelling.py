@@ -10,8 +10,8 @@ mlflow.sklearn.autolog()
 base_dir = os.path.dirname(os.path.abspath(__file__))
 
 with mlflow.start_run():
-    train_path = os.path.join(base_dir, 'train_preprocessed.csv')
-    test_path = os.path.join(base_dir, 'test_preprocessed.csv')
+    train_path = os.path.join(base_dir, 'restaurant_satisfaction_preprocessing', 'train_preprocessed.csv')
+    test_path = os.path.join(base_dir, 'restaurant_satisfaction_preprocessing', 'test_preprocessed.csv')
     
     train_data = pd.read_csv(train_path)
     test_data = pd.read_csv(test_path)
